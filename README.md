@@ -13,7 +13,14 @@ test public api link:
     echo $fyyd->description();
 
     //podcast posters
-    echo $fyyd->cover("large");
-    echo $fyyd->cover("medium");
-    echo $fyyd->cover("small");
+    echo $fyyd->cover("large", "html");
+    echo $fyyd->cover("medium", "html");
+    echo $fyyd->cover("small", "html");
+    
+    echo $fyyd->cover("large", "link");
+    echo $fyyd->cover("medium", "link");
+    echo $fyyd->cover("small", "link");
+    
+    echo $fyyd->publication("html") //html
+    echo $fyyd->publication() //curent date
     
