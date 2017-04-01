@@ -1,5 +1,13 @@
 <?php
+/**
+ * Created by Wikibyte.org
+ * User: McCouman
+ * Date: 01.04.17
+ * Time: 15:22
+ */
+
 namespace fyyd;
+
 
 class readJson
 {

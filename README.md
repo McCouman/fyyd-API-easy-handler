@@ -1,4 +1,4 @@
-# fyyd-API-easy-handler
+# fyyd-API-easy-handler 1.0.1
 
 include the class `include_once "classes/fyyd/readJson.php";`
 
