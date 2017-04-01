@@ -35,7 +35,7 @@ test public api link:
     echo $fyyd->fyyd_url() //https://fyyd.de/podcast/<ID>
     
     //fyyd categorys
-    echo $fyyd->fyyd_category() //IN PROGRESS!
+    echo $fyyd->fyyd_category() //IN PROGRESS (fyyd API)!
     //<ul>
     // <li><a href="%cat_link%">%cat_id%</a></li>
     // ...
