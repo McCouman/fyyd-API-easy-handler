@@ -14,9 +14,10 @@ test public api link:
 
     //podcast posters
     echo $fyyd->cover(); //original poster size from podcast
-    echo $fyyd->cover("html"); //original poster size from podcast as html output
+    echo $fyyd->cover("small", "html"); //original poster size from podcast as html output
     
-    # html cover
+    # html cover (standard output)
+    echo $fyyd->cover("large"); //<img src="..." />
     echo $fyyd->cover("large", "html"); //<img src="..." />
     echo $fyyd->cover("medium", "html");
     echo $fyyd->cover("small", "html");
@@ -26,5 +27,16 @@ test public api link:
     echo $fyyd->cover("medium", "link");
     echo $fyyd->cover("small", "link");
     
+    //publication date
     echo $fyyd->publication("html") //html <p>Vom: 23.03.2017 um 02:16 Uhr</p>
     echo $fyyd->publication() //curent date 2017-03-23 02:16:34
+    
+    //fyyd data: 
+    echo $fyyd->fyyd_url() //https://fyyd.de/podcast/<ID>
+    
+    //fyyd categorys:
+    echo $fyyd->fyyd_category() //IN PROGRESS!
+    //<ul>
+    // <li><a href="%cat_link%">%cat_id%</a></li>
+    // ...
+    //</ul>
