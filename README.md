@@ -31,10 +31,10 @@ test public api link:
     echo $fyyd->publication("html") //html <p>Vom: 23.03.2017 um 02:16 Uhr</p>
     echo $fyyd->publication() //curent date 2017-03-23 02:16:34
     
-    //fyyd data: 
+    //fyyd data
     echo $fyyd->fyyd_url() //https://fyyd.de/podcast/<ID>
     
-    //fyyd categorys:
+    //fyyd categorys
     echo $fyyd->fyyd_category() //IN PROGRESS!
     //<ul>
     // <li><a href="%cat_link%">%cat_id%</a></li>
