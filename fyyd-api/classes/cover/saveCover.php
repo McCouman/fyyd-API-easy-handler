@@ -1,11 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: McCouman
- * Date: 01.04.17
- * Time: 15:00
- */
-
+/*in progress!*/
 namespace covers;
 
 
