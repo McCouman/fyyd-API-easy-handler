@@ -21,7 +21,7 @@ test public api link:
     echo $fyyd->cover("medium", "html");
     echo $fyyd->cover("small", "html");
     
-    # link from fyyd img
+    # link to fyyd img domain
     echo $fyyd->cover("large", "link"); //https://img.fyyd.de/....
     echo $fyyd->cover("medium", "link");
     echo $fyyd->cover("small", "link");
